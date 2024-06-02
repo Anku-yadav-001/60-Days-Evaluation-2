@@ -23,7 +23,7 @@ When the user is not authenticated/logged-out:
 Display a link to the Login Page only.
 All pages except the Login Page should be accessible only to logged-in users. If a user is not logged in, they should be redirected to the Login Page. This means that only the Login Page is a public route, while all other pages are private routes.
 
-1. **Home Page**: As soon as the user visits the Home Page, it should make an API call using Axios to the products endpoint API Docs to get the list of products and then display that list of products as cards in a grid layout:
+ **1. Home Page**: As soon as the user visits the Home Page, it should make an API call using Axios to the products endpoint API Docs to get the list of products and then display that list of products as cards in a grid layout:
 
 3 cards per row for large screens and above
 2 cards per row for medium screens and above
@@ -38,7 +38,7 @@ The products should be rearranged based on the selected sort and filter criteria
 
 Also, include proper loading indicators and error message components to show appropriate loading and error messages as needed.
 
-2. **Product Details Page**: This page should display all the details of a single product. The page should have the following features:
+**2. Product Details Page**: This page should display all the details of a single product. The page should have the following features:
 
 Display a visually appealing card containing all the details of the product. As soon as the page loads, retrieve the product id from the URL and make an API call to get the details of the product with that product id API Docs.
 
@@ -46,7 +46,7 @@ Include an Add to Cart button that opens an Alert Dialog with the text "Are you 
 
 Ensure proper loading indicators and error message components to show appropriate loading and error messages as needed.
 
-3. **Login Page**: This page should contain the following elements:
+**3. Login Page**: This page should contain the following elements:
 
 An input box for email (focus should be on this input box as soon as the page loads).
 An input box for password.
