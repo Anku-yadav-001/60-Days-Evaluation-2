@@ -1,7 +1,7 @@
 # 60-Days-Evaluation-2
 
 ## Instructions
-Using the following tools and technologies: React (useState, useContext, useEffect, useRef), Chakra UI, React Router, and Axios, your task is to build a web application with the following features:
+Using the following tools and technologies: React (`useState`, `useContext`, `useEffect`, `useRef`), `Chakra UI`,` React Router`, and `Axios`, your task is to build a web application with the following features:
 
 #### The web application should have multiple pages:
 
@@ -28,10 +28,10 @@ All pages except the Login Page should be accessible only to logged-in users. If
 3 cards per row for large screens and above
 2 cards per row for medium screens and above
 1 card per row for small screens
-Each product card should display the Title, Category, and Price, and include a More Details button that redirects to the Product Details page. Include three select buttons for sorting and filtering products:
+Each product card should display the `Title`, `Category`, and `Price`, and include a `More Details` button that redirects to the Product Details page. Include three select buttons for sorting and filtering products:
 
-Sort by Price with options "Ascending" and "Descending"
-Filter by Category with options "Men", "Women", "Kids", and "Home Decor"
+`Sort by Price` with options "Ascending" and "Descending"
+`Filter by Category` with options "Men", "Women", "Kids", and "Home Decor"
 The products should be rearranged based on the selected sort and filter criteria.
 
 ***Bonus***: Ensure that even when the user refreshes the page, the products remain sorted and filtered correctly. Refer to the useSearchParams hook.
@@ -42,7 +42,7 @@ Also, include proper loading indicators and error message components to show app
 
 Display a visually appealing card containing all the details of the product. As soon as the page loads, retrieve the product id from the URL and make an API call to get the details of the product with that product id API Docs.
 
-Include an Add to Cart button that opens an Alert Dialog with the text "Are you sure you want to add this item to cart" and two buttons Cancel and Confirm. Clicking Cancel should close the Alert Dialog. Clicking Confirm should show a toast message with the text "Item added to cart" and close the Alert Dialog. The toast message should be visible for 2 seconds. (Note: Maintaining cart state is not required; the functionality described will suffice.)
+Include an `Add to Cart` button that opens an Alert Dialog with the text "Are you sure you want to add this item to cart" and two buttons `Cancel` and `Confirm`. Clicking `Cancel` should close the Alert Dialog. Clicking `Confirm`should show a toast message with the text "Item added to cart" and close the Alert Dialog. The toast message should be visible for 2 seconds. (Note: Maintaining cart state is not required; the functionality described will suffice.)
 
 Ensure proper loading indicators and error message components to show appropriate loading and error messages as needed.
 
@@ -50,4 +50,4 @@ Ensure proper loading indicators and error message components to show appropriat
 
 An input box for email (focus should be on this input box as soon as the page loads).
 An input box for password.
-A login button that makes a POST request to the login API endpoint API Docs. If the request is successful, it will redirect to the Home Page. If the request is unsuccessful, it will display an error message. The successful response returns a token, which can be saved in the AuthContext. Maintain a context to keep track of isLoggedIn, token, and email.
+A login button that makes a POST request to the login API endpoint API Docs. If the request is successful, it will redirect to the Home Page. If the request is unsuccessful, it will display an error message. The successful response returns a `token`, which can be saved in the `AuthContext`. Maintain a context to keep track of `isLoggedIn`, `token`, and `email`.
